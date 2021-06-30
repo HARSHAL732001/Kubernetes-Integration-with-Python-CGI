@@ -1,0 +1,205 @@
+.Kubernetes{
+   
+    color: #ffffff;
+    font-weight:bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    box-shadow: 6px 2px 5px 1px #000000;
+    border-radius:10px;
+    background-color:#0174df;
+    display: inline-block;
+    font-size: 25px;
+    margin:2px 0px;
+    transition-duration:0.4s;
+    cursor:pointer;
+  }
+  .Kubernetes:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fcfcfc;
+  }
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: #000000;
+}
+.element{
+   
+    font-weight:bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    box-shadow: 4px 2px 5px 1px #000000;
+    border-radius:10px;
+    background-color:#0174df;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    transition-duration:0.4s;
+    cursor:pointer;
+  }
+  .element:hover {
+    background-color: rgb(0, 0, 0);
+    color: #f8f9fc;
+  }
+  .elements{
+   
+    color: #000000;
+    font-weight:bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    box-shadow: 4px 2px 5px 1px #070707;
+    border-radius:10px;
+    background-color:#0174df;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    transition-duration:0.4s;
+    cursor:pointer;
+  }
+  .elements:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.output-screen{
+    position: absolute;
+    float: bottom;
+    left: 7%;
+    top: 50%;
+    margin-left: 225px;
+    width: 700px;
+    height: 300px;
+    background:;
+    font-size:30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius:15px;
+    color:rgb(255, 255, 255);
+    box-shadow: 6px 6px 7px 2px #000000;;
+    border: 7px solid #a8a8a8;
+    text-align: center;
+   }
+
+.launch-pod{
+    position: absolute;
+    left: 1%;
+    border-radius: 15px;
+    bottom: 10%;
+    top: 20%;
+    margin-left: 7px;
+    width: 200px;
+    height: 250px;
+    background: #fffefe;
+    box-shadow: 4px 4px 7px 2px #000000;
+    border: 2px solid black;
+    text-align: center;
+}
+.btn {
+  color: #000000;
+  font-weight:bold;
+  background: #5f5f5f;
+  width:120px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 4px 2px 5px 1px #030303;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.4s;
+  overflow: hidden;
+  left: 20%;
+  bottom: 7%;
+  text-decoration:none;
+  position: absolute;
+}
+
+.launch-deploy{
+  position: absolute;
+  left: 81%;
+  border-radius: 15px;
+  bottom: 10%;
+  top: 20%;
+  margin-left: 10px;
+  width: 220px;
+  height: 250px;
+  background: #ffffff;
+  box-shadow: 4px 4px 7px 2px #000000;
+  border: 2px solid black;
+  text-align: center;
+}
+.del-pod{
+  position: absolute;
+  left: 41%;
+  border-radius: 15px;
+  bottom: 10%;
+  top: 20%;
+  margin-left: 10px;
+  width: 200px;
+  height: 160px;
+  background: #ffffff;
+  box-shadow: 4px 4px 7px 2px #000000;
+  border: 2px solid black;
+  text-align: center;
+}
+.scale-deploy{
+  position: absolute;
+  left: 81%;
+  bottom: 10%;
+  border-radius: 15px;
+  top: 63%;
+  margin-left: 10px;
+  width: 220px;
+  height: 230px;
+  background: #ffffff;
+  box-shadow: 4px 4px 7px 2px #000000;
+  border: 2px solid black;
+  text-align: center;
+
+}
+
+.create-service{
+    position: absolute;
+    left: 1%;
+    bottom: 10%;
+    border-radius: 15px;
+    top: 63%;
+    margin-left: 10px;
+    width: 200px;
+    height: 230px;
+    background: #ffffff;
+    box-shadow: 4px 4px 7px 2px #000000;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.del-deploy{
+  position: absolute;
+  border-radius: 15px;
+  left: 60%;
+  bottom: 10%;
+  top: 20%;
+  margin-left: 10px;
+  width: 220px;
+  height: 160px;
+  background: #ffffff;
+  box-shadow: 4px 4px 7px 2px #000000;
+  border: 2px solid black;
+  text-align: center;
+}
+.expose-deploy {
+  position: absolute;
+  border-radius: 15px;
+  left: 20%;
+  bottom: 10%;
+  top: 20%;
+  margin-left: 10px;
+  width: 220px;
+  height: 160px;
+  background: #ffffff;
+  box-shadow: 4px 4px 7px 2px #000000;
+  border: 2px solid black;
+  text-align: center;
+}
